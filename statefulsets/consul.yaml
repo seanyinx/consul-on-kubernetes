@@ -84,10 +84,10 @@ spec:
     - metadata:
         name: data
         annotations:
-          volume.beta.kubernetes.io/storage-class: default
+          volume.beta.kubernetes.io/storage-class: standard
       spec:
         accessModes:
           - ReadWriteOnce
         resources:
           requests:
-            storage: 10Gi
+            storage: 1Gi
